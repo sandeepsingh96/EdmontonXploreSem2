@@ -63,7 +63,7 @@
                                             <action selector="signUpTapped:" destination="uia-sL-hKn" eventType="touchUpInside" id="ZSU-MT-hK7"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCu-qu-y8h">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCu-qu-y8h">
                                         <rect key="frame" x="0.0" y="350" width="334" height="290"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemRedColor"/>
@@ -190,7 +190,7 @@
                                             <action selector="loginTapped:" destination="9oA-ud-BEe" eventType="touchUpInside" id="ngm-ua-eoI"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y9H-xd-A8j">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y9H-xd-A8j">
                                         <rect key="frame" x="0.0" y="180" width="334" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemRedColor"/>
@@ -199,6 +199,10 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="K0O-mb-03q" firstAttribute="height" secondItem="yUi-nU-kli" secondAttribute="height" id="72L-DI-p5n"/>
+                                    <constraint firstItem="Y9H-xd-A8j" firstAttribute="centerX" secondItem="iHT-JO-zgI" secondAttribute="centerX" id="DgK-8l-8Jd"/>
+                                    <constraint firstItem="K0O-mb-03q" firstAttribute="centerX" secondItem="iHT-JO-zgI" secondAttribute="centerX" id="Q6Q-xW-FR1"/>
+                                    <constraint firstItem="yUi-nU-kli" firstAttribute="centerX" secondItem="iHT-JO-zgI" secondAttribute="centerX" id="cmv-qx-H4r"/>
+                                    <constraint firstItem="avz-SW-15m" firstAttribute="centerX" secondItem="iHT-JO-zgI" secondAttribute="centerX" id="tgQ-fO-saD"/>
                                     <constraint firstItem="avz-SW-15m" firstAttribute="height" secondItem="yUi-nU-kli" secondAttribute="height" id="zcY-dG-PX9"/>
                                 </constraints>
                             </stackView>
@@ -506,8 +510,20 @@
                     <view key="view" contentMode="scaleToFill" id="1zN-9f-KaA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WJ5-DD-XV8">
+                                <rect key="frame" x="152.5" y="431.5" width="109" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="A7p-gd-Gzl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WJ5-DD-XV8" firstAttribute="centerY" secondItem="1zN-9f-KaA" secondAttribute="centerY" id="DBb-8N-dc0"/>
+                            <constraint firstItem="WJ5-DD-XV8" firstAttribute="centerX" secondItem="1zN-9f-KaA" secondAttribute="centerX" id="hs0-fG-krl"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TSh-le-Kk3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
