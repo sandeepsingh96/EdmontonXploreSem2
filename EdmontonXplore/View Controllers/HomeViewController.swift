@@ -8,14 +8,20 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    @IBOutlet weak var moveTM: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func moveTMF(_ sender: Any) {
+        let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let nextVC = storyboard.instantiateViewController(withIdentifier: "ListContent") as! ListContent
+        self.present(nextVC, animated: true,completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
