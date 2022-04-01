@@ -21,6 +21,8 @@
 		8E91E43F27AE5CD3006AB922 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91E43E27AE5CD3006AB922 /* Utilities.swift */; };
 		8E91E44127AE5CDC006AB922 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91E44027AE5CDC006AB922 /* Constants.swift */; };
 		8E91E44627AE60BA006AB922 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91E44527AE60BA006AB922 /* WelcomeViewController.swift */; };
+		8EBE7E2E27F6C02D0050F9F8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE7E2D27F6C02D0050F9F8 /* CameraViewController.swift */; };
+		8EBE7E3027F6D27A0050F9F8 /* NewNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE7E2F27F6D27A0050F9F8 /* NewNavigationController.swift */; };
 		8EF6621127497332004EF648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6621027497332004EF648 /* AppDelegate.swift */; };
 		8EF6621327497332004EF648 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6621227497332004EF648 /* SceneDelegate.swift */; };
 		8EF6621527497332004EF648 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6621427497332004EF648 /* ViewController.swift */; };
@@ -40,6 +42,8 @@
 		8E91E43E27AE5CD3006AB922 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		8E91E44027AE5CDC006AB922 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8E91E44527AE60BA006AB922 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ../WelcomeViewController.swift; sourceTree = "<group>"; };
+		8EBE7E2D27F6C02D0050F9F8 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		8EBE7E2F27F6D27A0050F9F8 /* NewNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNavigationController.swift; sourceTree = "<group>"; };
 		8EF6620D27497332004EF648 /* EdmontonXplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdmontonXplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF6621027497332004EF648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EF6621227497332004EF648 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 				8E91E43B27AE4FDF006AB922 /* HomeViewController.swift */,
 				8E91E43927AE4E13006AB922 /* LoginViewController.swift */,
 				8E91E44527AE60BA006AB922 /* WelcomeViewController.swift */,
+				8EBE7E2D27F6C02D0050F9F8 /* CameraViewController.swift */,
+				8EBE7E2F27F6D27A0050F9F8 /* NewNavigationController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -206,6 +212,8 @@
 				8E91E44127AE5CDC006AB922 /* Constants.swift in Sources */,
 				8E91E43827AE4E00006AB922 /* SignUpViewController.swift in Sources */,
 				8EF6621527497332004EF648 /* ViewController.swift in Sources */,
+				8EBE7E3027F6D27A0050F9F8 /* NewNavigationController.swift in Sources */,
+				8EBE7E2E27F6C02D0050F9F8 /* CameraViewController.swift in Sources */,
 				8EF6621127497332004EF648 /* AppDelegate.swift in Sources */,
 				8E91E43A27AE4E13006AB922 /* LoginViewController.swift in Sources */,
 				8E91E44627AE60BA006AB922 /* WelcomeViewController.swift in Sources */,

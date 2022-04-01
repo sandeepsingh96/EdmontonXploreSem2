@@ -16,10 +16,22 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.navigationBar.isHidden = false
+        
+        
+        
+        
+    }
+    
+    
     @IBAction func moveTMF(_ sender: Any) {
         let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let nextVC = storyboard.instantiateViewController(withIdentifier: "ListContent") as! ListContent
-        self.present(nextVC, animated: true,completion: nil)
+        self.navigationController?.pushViewController(nextVC, animated: true)
+//        self.present(nextVC, animated: false,completion: nil)
     }
     
     /*

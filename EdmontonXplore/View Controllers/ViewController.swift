@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    @IBOutlet weak var cameraTest: UIButton!
     
     @IBOutlet weak var signUpButton: UIButton!
     
@@ -22,6 +23,8 @@ class ViewController: UIViewController {
     }
     func setUpElements(){
         Utilities.styleFilledButton(signUpButton)
+        Utilities.styleFilledButton(cameraTest)
+
         Utilities.styleFilledButton(loginButton)
         
     }
